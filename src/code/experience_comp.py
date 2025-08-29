@@ -249,4 +249,5 @@ def main():
     print(" -", hm1)
     print(" -", hm2)
 
-if __name__ 
+if __name__ == "__main__":
+    main()
