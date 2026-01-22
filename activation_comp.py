@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 import argparse
 import numpy as np
@@ -441,7 +440,6 @@ def main():
     )
     args = parser.parse_args()
     run_activation_analysis(args.base_dir, args.out_dir)
-
 
 if __name__ == "__main__":
     main()
